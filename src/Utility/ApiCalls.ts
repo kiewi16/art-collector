@@ -2,7 +2,6 @@ import type { Record } from './Types';
 
 const fetchArtRecords = async (): Promise<Record[]> => {
     const apiKey = process.env.REACT_APP_API_KEY;
-    console.log('API Key:', apiKey);
 
     const url = `https://www.rijksmuseum.nl/api/en/collection?key=${apiKey}&technique=brush&ps=30`;
 
