@@ -69,10 +69,6 @@ const MainGallery: React.FC = () => {
                 <span> i </span>
                 <span> n </span>
                 <span> g </span>
-                <span>   </span> 
-                <span> a </span>
-                <span> r </span>
-                <span> t </span>
             </p>
         ) : (
             artCards
