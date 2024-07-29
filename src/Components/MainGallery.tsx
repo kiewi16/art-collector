@@ -62,17 +62,15 @@ const MainGallery: React.FC = () => {
             </div>
         ) : isLoading ? (
             <p className='loadingText'>
-                <span> . </span>
-                <span> . </span>
-                <span> . </span>
                 <span> l </span>
                 <span> o </span>
                 <span> a </span>
                 <span> d </span>
                 <span> i </span>
                 <span> n </span>
-                <span> g </span> 
-                <span> A </span>
+                <span> g </span>
+                <span>   </span> 
+                <span> a </span>
                 <span> r </span>
                 <span> t </span>
             </p>
