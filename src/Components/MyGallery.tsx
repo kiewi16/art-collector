@@ -28,9 +28,9 @@ const MyGallery: React.FC = () => {
             
             {favoriteArtCards.length > 0 ? (<div className='favoriteCard-wrapper'>{favoriteArtCards}</div>) : (
                 <div className="navWrap">
-                    <p>No favorites yet! 😞</p>
+                    <p>No favorites yet! Make your own collection!</p>
                     <button className='backToMain'>
-                    <Link to="/MainGallery" className='mainGalleryLink'>Choose your favorites now!</Link>
+                    <Link to="/MainGallery" className='mainGalleryLink'>Go to main gallery</Link>
                     </button>
                 </div>
             )}
