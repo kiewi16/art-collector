@@ -75,7 +75,6 @@ const MainGallery: React.FC = () => {
                 <span> A </span>
                 <span> r </span>
                 <span> t </span>
-                 🎭🖼️
             </p>
         ) : (
             artCards
